@@ -4,7 +4,9 @@
     "description": "CORE_Entrega5_BBDD",
     "license": "GNU",
     "version": "0.0.0",
-    "engines": { "node": "12.16" },
+    "engines": {
+        "node": "12.16"
+    },
     "info": {
         "githubURL": "CORE-2020/Entrega5_BBDD",
         "serverUrl": "https://autocorector.dit.upm.es/",
@@ -20,7 +22,9 @@
     },
     "dependencies": {
         "sequelize": "^5.21.3",
-        "sequelize-cli": "^5.5.0",
-        "sqlite3": "^4.0.9"
+        "sqlite3": "^4.2.0"
+    },
+    "devDependencies": {
+        "sequelize-cli": "^5.5.0"
     }
 }
